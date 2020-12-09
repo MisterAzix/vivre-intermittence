@@ -1,0 +1,23 @@
+.help-card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F3F0F4;
+    width: 200px;
+    height: 320px;
+    border-radius: 16px;
+    color: $main-background-color;
+    box-shadow: 0 3px 6px #8E4A4A;
+
+    h4 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    p {
+        font-size: 14px;
+        text-align: center;
+    }
+}
+
