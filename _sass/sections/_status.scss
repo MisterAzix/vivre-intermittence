@@ -1,3 +1,4 @@
+<<<<<<< HEAD:_sass/sections/_status.scss
 .status {
     img {
         border-color: white;
@@ -28,3 +29,55 @@
     display: flex;
     justify-content: center;
 }
+=======
+.status {
+    img {
+        border-color: white;
+        
+    }
+
+    .howto-container {
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;   
+    }
+}
+
+
+
+.titre3 {
+    text-align: center;
+    padding-top: 30px;   
+}
+
+.calendrier {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+
+    .cas {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+    }
+        
+   .calendar {
+    max-width: 15%;
+    height: auto;
+    }
+
+    .text-addition{
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 10px;
+        
+        width: 250px;
+
+    }
+>>>>>>> dec19a8b74dd936db59d5c16ffdd7fe9bc1b88d6:_sass/sections/status.scss
