@@ -1,17 +1,23 @@
+/* ABSTRACT */
 @import 'abstracts/variables';
 
+/* BASE */
 @import 'base/reset';
 @import 'base/typography';
 @import 'base/commons';
 
+/* COMPONENTS */
 @import 'components/classic_button';
 @import 'components/help_card';
 @import 'components/navbar';
 @import 'components/small_button';
+@import 'components/howto';
 
+/* LAYOUT */
 @import 'layout/footer';
 @import 'layout/header';
 
+/* SECTIONS */
 @import 'sections/form';
 @import 'sections/social';
 @import 'sections/status';
