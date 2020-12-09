@@ -3,10 +3,10 @@
     align-items: center;
     flex-direction: column;
     background-color: $secondary-background-color;
-    width: 100vw;
+    width: 100%;
     max-width: 1280px;
     height: auto;
-    padding: 50px 140px;
+    padding: 40px;
 
     h2 {
         font-size: 75px;
@@ -19,11 +19,11 @@
         align-items: center;
         flex-direction: column;
         background: $main-gradient;
-        width: 664px;
-        height: 400px;
-        padding: 32px 80px;
+        width: 300px;
+        height: 200px;
+        padding: 20px;
         border-radius: 16px;
-        box-shadow: 0px 3px 8px #A32A2A;
+        box-shadow: 0px 3px 8px #a32a2a;
         margin: 70px 0;
     }
 

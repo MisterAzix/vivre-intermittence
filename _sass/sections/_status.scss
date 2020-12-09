@@ -1,0 +1,30 @@
+.status {
+    img {
+        border-color: white;
+    }
+
+    .howto-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+.titre3 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.calendrier {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cas {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}

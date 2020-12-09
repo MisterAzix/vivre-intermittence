@@ -1,50 +1,28 @@
 <section class="social">
 
+    {% include components/subtitle.html subtitle='Fais-toi<br /><span class="bold"> connaître</span>' %}
 
-    <h2>Fais-toi <id>connaître</id>
-    </h2>
-    <div id="carousel">
+    <!-- Social Items Slider -->
+    <div class="social-items-container">
+        {% include components/social_items.html 
+            logo="/assets/img/website_logo/logo_movinmotion.jpg" 
+            name="Movinmotion" 
+            content="La gestion digitale pour la culture et la communication" %}
 
-        <div class="socialitems">
-            {% include components/social_items.html link="https://www.example.com/" logo="/assets/img/website_logo/logo_le_lab.png" name="Artswap" content="Plateforme d’échanges de services & de matériel entre artistes" %}
-            {% include components/social_items.html link="https://www.example.com/" logo="/assets/img/website_logo/logo_movinmotion.jpg" name="Movinmotion" content="La gestion digitale pour la culture et la communication" %}
-            {% include components/social_items.html link="https://www.example.com/" logo="/assets/img/website_logo/logo_5euros.png" name="5euros" content="Des microservices pour tous vos besoins" %}
-        </div>
-       
+        {% include components/social_items.html 
+            logo="/assets/img/website_logo/logo_le_lab.png" 
+            name="Artswap" 
+            content="Plateforme d’échanges de services & de matériel entre artistes" %}
+        
+        {% include components/social_items.html 
+            logo="/assets/img/website_logo/logo_5euros.png" 
+            name="5euros" 
+            content="Des microservices pour tous vos besoins" %}
     </div>
 
-    <div class="fleche">
-        <button id="prev">Prev</button>
-        <button id="next">Next</button>
-    </div>
-
-   
+    <!--<div class="arrow">
+        <button id="prev"><img src="/assets/img/icon/icon-left-arrow.svg" alt="Previous Arrow"></button>
+        <button id="next"><img src="/assets/img/icon/icon-right-arrow.svg" alt="Next Arrow"></button>
+    </div>-->
 
 </section>
-
-
-<!--  <div class="artswap">
-    <img src="assets/img/website_logo/logo_le_lab.png" alt="Artswap" />
-    <h5><a href="https://www.artswap.fr/">Artswap</a></h5>
-    <p>Plateforme d’échanges de services & de matériel entre artistes</p>
-</div>
-
-<div class="movinmotion">
-    <img src="assets/img/website_logo/logo_movinmotion.jpg" alt="Movinmotion" />
-    <h5><a href="https://www.movinmotion.com/">Movinmotion</a></h5>
-    <p>La gestion digitale pour la culture et la communication</p>
-  </div>
-
-<div class="5euros">
-    <img src=" assets/img/website_logo/logo_5euros.png" alt="5 euros" />
-    <h5><a href="https://5euros.com/">5 euros</a></h5>
-    <p>Des microservices pour tous vos besoins</p>
-</div>
-
-<div class="intermittent.fr">
-    <img src=" assets/img/website_logo/logo_intermittent_fr.jpg"
-      alt="Intermittent.fr"
-    />
-    <h5><a href="https://intermittent.fr/">INTERMITTENT.fr</a></h5>
-    <p>Offres d'emplois & dépôt de CV pour les intermittents du spectacle</p>
-</div> -->

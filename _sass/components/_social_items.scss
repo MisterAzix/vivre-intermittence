@@ -4,6 +4,7 @@
     position: relative;
     height: 220px;
     width: 200px;
+    padding: 0 25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,10 +12,19 @@
     img {
         position: absolute;
         border-radius: 50px;
-        top: -10px;
+        top: -20px;
         left: 50%;
         height: 64px;
         width: 64px;
         transform: translateX(-50%);
+    }
+
+    .social-items-text-container {
+        text-align: center;
+
+        h5 {
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
     }
 }
