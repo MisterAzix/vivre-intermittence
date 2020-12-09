@@ -1,0 +1,33 @@
+
+/* Logo Promise */
+
+.logo-promise{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    img{
+        height: 24px;
+        width: 24px;
+    }
+
+.footer-nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.footer-social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    img{
+        margin:10px;
+        height: 24px;
+        width: 24px;
+    }
+
+}
+
