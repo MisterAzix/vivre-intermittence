@@ -10,12 +10,15 @@ footer {
         width: 72px;
     }
 
+    /* Zone Nav Onglet */
+
     .footer-nav {
         display: flex;
         flex-direction: column;
         align-items: center;
         font-size: 14px;
         
+    /* Onglet */
 
         li {
             margin: 10px 0;
@@ -28,7 +31,7 @@ footer {
 
     }
 
-
+    /* Mentions légales */
        .mentions-légales{
            font-size: 8px;
            margin-bottom: 10px;
@@ -37,20 +40,23 @@ footer {
        }
      
    
+    /* Zone logo réseaux */
 
     .footer-social {
         display: flex;
         flex-direction: row;
         justify-content: center;
-
+        
+        /* Logo */
         img {
             margin: 24px 10px 24px 10px;
             height: 24px;
             width: 24px;
+            
 
         }
     }
-    
+    /* Copyright */
     .copyright{
         font-size: 10px;
         margin-bottom: 30px;
