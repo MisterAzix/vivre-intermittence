@@ -5,23 +5,23 @@
     margin-left: 1rem;
 }
 
-.social
-{
+.social {
     h5 {
         font-size: 24px;
     }
     
-    fleche {
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: 10px;
-
-    artswap {
-    text-align: center;
+    .fleche {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 10px;
     }
 
-    movinmotion {
-    text-align: left;
+    .artswap {
+        text-align: center;
+    }
+
+    .movinmotion {
+        text-align: left;
     }
 }
