@@ -6,15 +6,37 @@ footer {
 
     /* Logo Promise */
     .logo-promise {
-        height: 128px;
-        width: auto;
+        height: 72px;
+        width: 72px;
     }
 
     .footer-nav {
         display: flex;
         flex-direction: column;
         align-items: center;
+        font-size: 14px;
+        
+
+        li {
+            margin: 10px 0;
+
+            a{ 
+                text-decoration: none;
+                color: white
+            }
+        }
+
     }
+
+
+       .mentions-légales{
+           font-size: 8px;
+           margin-bottom: 10px;
+           text-decoration: none;
+           color: white;
+       }
+     
+   
 
     .footer-social {
         display: flex;
@@ -22,12 +44,17 @@ footer {
         justify-content: center;
 
         img {
-            margin: 10px;
+            margin: 24px 10px 24px 10px;
             height: 24px;
             width: 24px;
+
         }
     }
     
+    .copyright{
+        font-size: 10px;
+        margin-bottom: 30px;
+    }
 }
 
 
