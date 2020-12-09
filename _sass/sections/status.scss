@@ -13,13 +13,13 @@
     }
 }
 
+
+
 .titre3 {
     text-align: center;
     padding-top: 30px;   
 }
-.calendar{
-    
-}
+
 .calendrier {
     padding-top: 30px;
     display: flex;
@@ -31,5 +31,20 @@
         margin-top: 30px;
         display: flex;
         justify-content: center;
+    }
         
+   .calendar {
+    max-width: 15%;
+    height: auto;
+    }
+
+    .text-addition{
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 10px;
+        
+        width: 250px;
+
     }
