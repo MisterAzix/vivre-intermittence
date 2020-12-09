@@ -5,32 +5,23 @@
     margin-left: 1rem;
 }
 
-<<<<<<< HEAD
 .social
-{}
-    h5
-    {
+{
+    h5 {
         font-size: 24px;
     }
     
     fleche {
     position: relative;
-     left: 50%;
+    left: 50%;
     transform: translateX(-50%);
     bottom: 10px;
-=======
-.fleche {
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 10px;
-}
 
-.artswap {
+    artswap {
     text-align: center;
-}
+    }
 
-.movinmotion {
+    movinmotion {
     text-align: left;
->>>>>>> 0e3d50cbb82c9e157d922cc74142afe6bf46ab9d
+    }
 }
