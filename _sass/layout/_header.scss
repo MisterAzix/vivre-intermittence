@@ -1,17 +1,25 @@
 header {
     background-image: url("/assets/img/header_background.jpg");
+    padding: 30px;
+
     h1{
+        margin-top: 120px;
+        margin-bottom: 110px;
         font-size: 25px;
+
         span{
-            font-size : 31px;
+            font-size : 30px;
             font-weight: bolder;
         }
+    }
 
-    }
     h2{
-        font-size: 19px;
+        font-size: 18px;
+        margin-bottom: 25px;
     }
+
     p{
         font-size: 16px;
+        margin: 15px 0;
     }
 }
