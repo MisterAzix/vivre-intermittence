@@ -1,7 +1,7 @@
 nav {
     z-index: 10;
     position: fixed;
-    top: 20%;
+    top: 25%;
     right: 20px;
   
   ul {
@@ -12,7 +12,12 @@ nav {
   
   .puce {
     /*Style de la puce*/
-    border: 5px solid white;
+    border-radius: 15%;
+    display: block;
+    width: 5px;
+    height: 80px;
+    background-color: white;
+    margin-bottom: 10px;
   }
   
   .active {
