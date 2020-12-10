@@ -3,19 +3,44 @@
     // justify-content: space-around;
     align-items: center;
 
-    padding: 5px 0;
+    padding: 15px 0;
     margin: 10px 0;
     width: 250px;
+}
 
-    .title {
-        margin-bottom: 5px;
-    }
+    
 
+<<<<<<< HEAD
+=======
     .subtitle {
         padding: 0.5em;
         text-indent: 2em;
+
+    }
+    h5{
+        font-size: 18px;
+        font-weight: bold;
+    }
+    h5{
+        font-size: 13px;
+        font-weight: bold;
+        padding-left: 20px;
+    }
+    p{
+        font-size: 11px;
+        padding-left: 20px;
     }
 }
+>>>>>>> c827c591d11dd516607f3571adb849668cc9cb53
 
 
 
+.howto-text-container h4 
+{
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.howto-sub-content {
+    padding-left: 30px;
+}
