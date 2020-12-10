@@ -1,3 +1,28 @@
-.bold {
-    font-weight: bold;
+@font-face {
+    font-family: "Helvetica-Neue";
+    src: url("/assets/font/HelveticaNeue.ttf") format("truetype");
+    font-weight: normal;      
+}
+
+@font-face {
+    font-family: "Helvetica-Neue";
+    src: url("/assets/font/HelveticaNeueBold.ttf") format("truetype");
+    font-weight: bold;      
+}
+
+@font-face {
+    font-family: "Helvetica-Neue";
+    src: url("/assets/font/HelveticaNeueMedium.ttf") format("truetype");
+    font-weight: medium;      
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Helvetica-Neue";
+    font-weight: normal;
+
+    .bold {
+        font-weight: bold;
+    }
 }
