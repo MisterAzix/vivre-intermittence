@@ -1,30 +1,33 @@
 .status {
+    padding: 30px;
+
     img {
         border-color: white;
-        
+    }
+
+    .hexagone-container {
+        position: relative;
+        width: 100%;
+        height: 300px;
     }
 
     .howto-container {
-        
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: column;   
+        flex-direction: column;
     }
-}
 
+    .titre3 {
+        text-align: center;
+        padding-top: 30px;
+    }
 
-
-.titre3 {
-    text-align: center;
-    padding-top: 30px;   
-}
-
-.calendrier {
-    padding-top: 30px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    .calendrier {
+        padding-top: 30px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
     }
 
     .cas {
@@ -32,19 +35,19 @@
         display: flex;
         justify-content: center;
     }
-        
-   .calendar {
-    max-width: 15%;
-    height: auto;
+
+    .calendar {
+        max-width: 15%;
+        height: auto;
     }
 
-    .text-addition{
+    .text-addition {
         margin-top: 15px;
         display: flex;
         justify-content: center;
         align-items: center;
         font-size: 10px;
-        
-        width: 250px;
 
+        width: 250px;
     }
+}

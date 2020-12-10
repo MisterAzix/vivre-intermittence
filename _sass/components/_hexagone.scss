@@ -1,0 +1,55 @@
+.hexagone {
+    background: url("/assets/img/hexagone_middle_social.svg") no-repeat center center;
+    background-size: auto;
+    position: absolute;
+    height: 140px;
+    width: 130px;
+    padding: 5px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 5px $main-gradient;
+    text-shadow: 3px 3px 5px $main-gradient;
+
+    p {
+        font-size: 0.8rem;
+        text-align: center;
+        text-shadow: 2px 2px 5px black;
+    }
+
+    &.hexag-num-1 {
+        height: 140px;
+        width: 130px;
+        bottom: 0;
+        right: -25px;
+    }
+
+    &.hexag-num-2 {
+        height: calc(140px * 0.9);
+        width: calc(130px * 0.9);
+        bottom: 20px;
+        right: 115px;
+    }
+
+    &.hexag-num-3 {
+        height: calc(140px * 0.9);
+        width: calc(130px * 0.9);
+        top: 45px;
+        right: 40px;
+    }
+
+    &.hexag-num-4 {
+        height: calc(140px * 0.75);
+        width: calc(130px * 0.75);
+        top: 55px;
+        right: 170px;
+    }
+
+    &.hexag-num-5 {
+        height: calc(140px * 0.6);
+        width: calc(130px * 0.6);
+        bottom: 60px;
+        right: 240px;
+    }
+}
