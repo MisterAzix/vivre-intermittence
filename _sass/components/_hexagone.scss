@@ -9,8 +9,7 @@
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-    box-shadow: 3px 3px 5px $main-gradient;
-    text-shadow: 3px 3px 5px $main-gradient;
+    filter: drop-shadow(3px 3px 3px #3B0B2C);
 
     p {
         font-size: 0.8rem;
