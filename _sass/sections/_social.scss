@@ -1,6 +1,8 @@
 .social {
     height: auto;
     padding: 60px 40px;
+    box-sizing: border-box;
+    overflow: hidden;
 
     .social-items-container {
         display: flex;
