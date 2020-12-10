@@ -1,0 +1,21 @@
+nav {
+    z-index: 10;
+    position: fixed;
+    top: 20%;
+    right: 20px;
+  
+  ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  .puce {
+    /*Style de la puce*/
+    border: 5px solid white;
+  }
+  
+  .active {
+    opacity: 1; /*Ou changement de couleur ça dépend*/
+  }
+}

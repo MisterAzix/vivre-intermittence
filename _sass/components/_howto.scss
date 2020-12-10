@@ -7,11 +7,32 @@
     margin: 10px 0;
     width: 250px;
 
+    img {
+        filter: drop-shadow(2px 2px 5px #da1d43a9);
+    }
+
     .howto-text-container {
         padding-left: 20px;
 
         h4 {
             padding-bottom: 10px;
+            font-size: 1rem;
+            font-weight: bold;
+            filter: drop-shadow(2px 2px 5px #da1d43a9);
+        }
+
+        h5 {
+            font-weight: bold;
+            padding-bottom: 5px;
+        }
+
+        p {
+            font-size: 0.8rem;
+            line-height: 15px;
+        }
+
+        .howto-sub-content {
+            padding-left: 20px;
         }
     }
 }
