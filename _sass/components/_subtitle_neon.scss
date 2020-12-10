@@ -1,15 +1,7 @@
 .subtitle-neon {
     width: 100%;
+    position: relative;
     margin: 20px 0;
-
-    div {
-        position: relative;
-    }
-
-    &.subtitle-neon-center {
-        display: flex;
-        justify-content: center;
-    }
 
     .subtitle-neon-main {
         font-size: 1.5rem;
@@ -19,12 +11,11 @@
     }
 
     .subtitle-neon-shadow {
-        opacity: 0.5;
         font-size: 1.5rem;
         position: absolute;
-        top: 0px;
-        left: 0px;
+        top: 1px;
+        left: 1px;
         color: transparent;
-        text-shadow: 0 0px 7px #f2b1c0;
+        text-shadow: 0 0px 5px #f2b1c0;
     }
 }
