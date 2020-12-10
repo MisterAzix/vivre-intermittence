@@ -2,14 +2,15 @@
     background: url("/assets/img/hexagone_middle_social.svg") no-repeat center center;
     background-size: auto;
     position: absolute;
-    height: 140px;
-    width: 130px;
+    height: 125px;
+    width: 115px;
     padding: 5px 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     box-sizing: border-box;
+    filter: drop-shadow(3px 3px 3px #8E162E);
 
     img {
         height: 32px;
@@ -19,5 +20,20 @@
     p {
         font-size: 0.8rem;
         text-align: center;
+    }
+
+    &.hexag-num-1 {
+        bottom: -10px;
+        left: 0px;
+    }
+
+    &.hexag-num-2 {
+        bottom: 90px;
+        left: 75px;
+    }
+
+    &.hexag-num-3 {
+        bottom: -20px;
+        left: 140px;
     }
 }

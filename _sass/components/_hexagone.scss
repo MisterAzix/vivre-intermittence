@@ -9,7 +9,7 @@
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-    filter: drop-shadow(3px 3px 3px #3B0B2C);
+    filter: drop-shadow(3px 3px 3px #8E162E);
 
     p {
         font-size: 0.8rem;
@@ -34,14 +34,14 @@
     &.hexag-num-3 {
         height: calc(140px * 0.9);
         width: calc(130px * 0.9);
-        top: 45px;
+        bottom: 130px;
         right: 40px;
     }
 
     &.hexag-num-4 {
         height: calc(140px * 0.75);
         width: calc(130px * 0.75);
-        top: 55px;
+        bottom: 140px;
         right: 170px;
     }
 

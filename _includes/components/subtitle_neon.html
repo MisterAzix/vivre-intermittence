@@ -1,6 +1,13 @@
 <div class="subtitle-neon {{ include.class }}">
+    {% if include.image %}
+        <img src="{{ include.image }}" alt="Subtitle Icon" />
+    {% endif %}
     <div>
         <h3 class="subtitle-neon-main">{{ include.subtitle }}</h3>
-        <h3 class="subtitle-neon-shadow">{{ include.subtitle }}</h3>
+        {% if include.image %}
+            <h3 class="subtitle-neon-shadow subtitle-neon-shadow-top">{{ include.subtitle }}</h3>
+        {% else %}
+            <h3 class="subtitle-neon-shadow">{{ include.subtitle }}</h3>
+        {% endif %}
     </div>
 </div>
