@@ -18,9 +18,12 @@ nav {
     height: 70px;
     background-color: white;
     margin-bottom: 25px;
+    opacity: 0.5;
+    transition: 0.5s;
   }
   
-  .active {
+  .is-active {
     opacity: 1; /*Ou changement de couleur ça dépend*/
+    transform: scale(1.1);
   }
 }
