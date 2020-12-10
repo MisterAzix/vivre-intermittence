@@ -8,6 +8,7 @@
     align-items: center;
     top: 0;
     left: 0;
+    backdrop-filter: blur(5px);
 
     .cookie-window {
         background: url("/assets/img/hexagone_cookies.svg") center center no-repeat;
