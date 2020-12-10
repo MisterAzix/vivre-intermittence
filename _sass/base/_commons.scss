@@ -3,3 +3,11 @@ body {
     color: $body-color;
     font-family: $main-font;
 }
+
+.section {
+    box-sizing: border-box;
+    overflow: hidden;
+    max-width: 1280px;
+    width: 100%;
+    margin: auto;
+}
