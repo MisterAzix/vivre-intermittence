@@ -1,0 +1,21 @@
+.howto {
+    display: flex;
+    // justify-content: space-around;
+    align-items: center;
+
+    padding: 5px 0;
+    margin: 10px 0;
+    width: 250px;
+
+    .title {
+        margin-bottom: 5px;
+    }
+
+    .subtitle {
+        padding: 0.5em;
+        text-indent: 2em;
+    }
+}
+
+
+

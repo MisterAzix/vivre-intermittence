@@ -3,21 +3,28 @@
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    background-color: #F3F0F4;
-    width: 200px;
-    height: 320px;
+    background-color: #f3f0f4;
+    width: 100px;
+    height: 140px;
     border-radius: 16px;
     color: $main-background-color;
-    box-shadow: 0 3px 6px #8E4A4A;
+    box-shadow: 0 3px 6px #8e4a4a;
 
     h4 {
-        font-size: 24px;
+        font-size: 1rem;
         text-align: center;
+        font-weight: bold;
     }
 
     p {
-        font-size: 14px;
+        font-size: 0.7rem;
         text-align: center;
     }
-}
 
+    button {
+        border: none;
+        font-size: 0.6rem;
+        box-shadow: 1px 1px 7px $main-background-color;
+        border-radius: 4px;
+    }
+}

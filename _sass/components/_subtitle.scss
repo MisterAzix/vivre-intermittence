@@ -1,0 +1,17 @@
+.subtitle {
+    width: 100%;
+    position: relative;
+
+    .subtitle-main {
+        font-size: 1.8rem;
+    }
+
+    .subtitle-shadow {
+        font-size: 1.8rem;
+        position: absolute;
+        top: 1px;
+        left: 1px;
+        color: transparent;
+        text-shadow: 0 0px 5px #f2b1c0;
+    }
+}

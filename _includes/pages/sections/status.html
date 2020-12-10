@@ -1,20 +1,47 @@
 <section class="status">
-    <h2>
-        Devenir <br />
-        <span> Intermittent</span>
-    </h2>
 
+    {% include components/subtitle.html subtitle='Devenir<br /><span class="bold"> intermittent</span>' %}
+
+    <!-- 507 heures / an  -->
     <div>
         <img src="assets/img/icon/icon_clock.svg" alt="horloge" />
-        <h3>507 heures / ans</h3>
+        {% include components/subtitle_neon.html subtitle='507 heures / ans' %}
+    </div>
+
+    <div class="hexagone-container">
+        {% include components/hexagone.html number="1" content="Être en recherche active et permanente d’emploi" %}
+        {% include components/hexagone.html number="2" content="Être physiquement apte à l’exercice d’un emploi" %}
+        {% include components/hexagone.html number="3" content="Être inscrit comme demandeur d’emploi" %}
+        {% include components/hexagone.html number="4" content="Résider en France" %}
+        {% include components/hexagone.html number="5" content="Avoir moins de 67 ans" %}
     </div>
 
     <!-- Comment réaliser ces 507H  -->
-    <h3>Comment réaliser ces 507H ?</h3>
+    <div>
+        {% include components/subtitle_neon.html subtitle='Comment réaliser ces 507H ?' %}
 
-    <div class="howto-container">
-        {% include components/howto.html icon="/assets/img/icon/icon_guitar.svg" title="Répétitions" subtitle="1 heure = 1 heure" %}
-        {% include components/howto.html icon="/assets/img/icon/icon_teacher.svg" title="Enseignement" subtitle="1 heure = 1 heure" content="70 heures max 120 heures si plus de 50 ans" %}
-        {% include components/howto.html icon="/assets/img/icon/icon_tasklist.svg" title="Cachets" subtitle="1 cachet = 12 heures" content="28 max par mois" %}
+        <div class="howto-container">
+            {% include components/howto.html icon="/assets/img/icon/icon_guitar.svg" title="Répétitions" subtitle="1 heure = 1 heure" %}
+            {% include components/howto.html icon="/assets/img/icon/icon_teacher.svg" title="Enseignement" subtitle="1 heure = 1 heure" content="70 heures max 120 heures si plus de 50 ans" %}
+            {% include components/howto.html icon="/assets/img/icon/icon_tasklist.svg" title="Cachets" subtitle="1 cachet = 12 heures" content="28 max par mois" %}
+        </div>
     </div>
+
+    <!-- Possibilité d’allonger la période  -->
+    {% include components/subtitle_neon.html subtitle='Possibilité d’allonger la période' %}
+    <div class="calendrier">
+        <img src="/assets/img/icon/icon_calendar.svg" class="calendar" />
+        <span>+30 jours / 42 heures </span>
+    </div>
+
+    <!-- CAS PARTICULIERS  -->
+    <div>
+        {% include components/subtitle_neon.html subtitle='CAS PARTICULIERS' %}
+        <p class="text-addition">
+            Si indemnisé par la sécurité sociale, les jours d’immobilisation ne
+            comptent pas. Chaque jours d’impossibilité de travailler est ajouté
+            aux 365 jours pour faire les 507 heures.
+        </p>
+    </div>
+
 </section>

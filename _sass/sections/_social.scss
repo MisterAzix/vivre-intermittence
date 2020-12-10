@@ -1,0 +1,20 @@
+.social {
+    height: auto;
+    /*padding: 60px 40px;*/
+
+    .social-items-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .arrow {
+
+        button {
+            background-color: transparent;
+            border: none;
+        }
+    }
+}
+

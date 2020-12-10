@@ -1,18 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 25.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 1920 1080" style="enable-background:new 0 0 1920 1080;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:url(#Tracé_560-2_1_);}
-</style>
-<g transform="matrix(1, 0, 0, 1, 0, 0)">
-	
-		<linearGradient id="Tracé_560-2_1_" gradientUnits="userSpaceOnUse" x1="2.9635" y1="1080.2357" x2="2.9635" y2="1079.2357" gradientTransform="matrix(209.2159 0 0 -227.0886 339.7841 245735.2812)">
-		<stop  offset="0" style="stop-color:#500F3C"/>
-		<stop  offset="1" style="stop-color:#DD1E45"/>
-	</linearGradient>
-	<path id="Tracé_560-2" class="st0" d="M1041.55,613.17l-63.42,34.87c-12.89,7.09-28.59,6.76-41.17-0.86l-61.91-37.5
-		c-12.58-7.62-20.15-21.38-19.84-36.09l1.52-72.36c0.31-14.71,8.44-28.14,21.33-35.22l63.42-34.87c12.89-7.09,28.59-6.76,41.17,0.86
-		l61.91,37.49c12.58,7.62,20.15,21.38,19.84,36.08l-1.52,72.36C1062.57,592.65,1054.44,606.08,1041.55,613.17z"/>
-</g>
-</svg>
+<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 209.21 227.09"><defs><style>.cls-1{fill:url(#Dégradé_sans_nom);}</style><linearGradient id="Dégradé_sans_nom" x1="460.76" y1="-40.41" x2="460.76" y2="-39.41" gradientTransform="translate(-95439.53 9603.15) scale(209.22 227.09)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#500f3c"/><stop offset="1" stop-color="#dd1e45"/></linearGradient></defs><title>hexagone_middle_social</title><path id="Tracé_560-2" data-name="Tracé 560-2" class="cls-1" d="M1041.55,613.17,978.13,648a41.18,41.18,0,0,1-41.17-.86l-61.91-37.5a41.19,41.19,0,0,1-19.84-36.09l1.52-72.36A41.17,41.17,0,0,1,878.06,466l63.42-34.87a41.18,41.18,0,0,1,41.17.86l61.91,37.49a41.18,41.18,0,0,1,19.84,36.08l-1.52,72.36A41.2,41.2,0,0,1,1041.55,613.17Z" transform="translate(-855.2 -426.04)"/></svg>
