@@ -1,26 +1,30 @@
 .cookie-popup {
+    z-index: 10;
     position: fixed;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
 
     .cookie-window {
-        position: relative;
+        background: url("/assets/img/hexagone_cookies.svg") center center no-repeat;
+        width: 350px;
+        height: 350px;
 
-        img {
-            
+        .img {
+            width: 48px;
+            height: 48px;
         }
 
-        .cookie-window-content {
-            
-            img {
+        p {
+            padding-bottom: 10px;
+        }
 
-            }
-
-            p {
-
-            }
-
-            .cookie-window-button {
-
-            }
+        .cookie-window-button {
+            height: auto;
         }
     }
 }
