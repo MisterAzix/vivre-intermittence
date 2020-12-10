@@ -1,3 +1,16 @@
 <div class="cookie-popup">
-    
+    <!-- cookie-pupup prend l'intégralité de la page (pour pouvoir flouter l'arrière plan) -->
+    <div class="cookie-window">
+        <!-- 2 choix sont possible l'image en absolute ou le contenu -->
+        <img src="/assets/img/hexagone_cookies.svg" alt="Cookie Window">
+        <div class="cookie-window-content">
+            <img src="/assets/img/icon_cookie_gradient.svg" alt="Cookie Logo">
+            <p><!-- Ajouter les contenus --></p>
+            <div class="cookie-window-button">
+                <!-- On vient mettre les boutons dans une div pour pouvoir faciliter le placement des éléments -->
+                {% include components/classic_button.html content="Accepter" %}
+                {% include components/classic_button.html content="Refuser" %}
+            </div>
+        </div>
+    </div>
 </div>
