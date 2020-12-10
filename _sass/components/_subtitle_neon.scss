@@ -6,6 +6,11 @@
         height: 32px;
         margin-right: 10px;
         filter: drop-shadow(0px 0px 5px #f2b1c0);
+
+        @media (min-width: 500px) {
+            height: 72px;
+            margin-right: 25px;
+        }
     }
 
     div {
@@ -31,6 +36,16 @@
 
             &.subtitle-neon-shadow-top {
                 top: 5px;
+            }
+        }
+
+        @media (min-width: 500px) {
+            .subtitle-neon-main {
+                font-size: 3.5rem;
+            }
+
+            .subtitle-neon-shadow {
+                font-size: 3.5rem;
             }
         }
     }

@@ -10,4 +10,8 @@ body {
     max-width: 1280px;
     width: 100%;
     margin: auto;
+
+    @media (min-width: 1280px) {
+        overflow: visible;
+    }
 }

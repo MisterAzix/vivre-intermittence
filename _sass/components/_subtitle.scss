@@ -14,4 +14,14 @@
         color: transparent;
         text-shadow: 0 0px 5px #f2b1c0;
     }
+
+    @media (min-width: 500px) {
+        .subtitle-main {
+            font-size: 4.8rem;
+        }
+        
+        .subtitle-shadow {
+            font-size: 4.8rem;
+        }
+    }
 }

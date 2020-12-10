@@ -1,9 +1,12 @@
+$hexagone-icon-height: 125px;
+$hexagone-icon-width: 115px;
+
 .hexagone-icon {
     background: url("/assets/img/hexagone_middle_social.svg") no-repeat center center;
     background-size: auto;
     position: absolute;
-    height: 125px;
-    width: 115px;
+    height: $hexagone-icon-height;
+    width: $hexagone-icon-width;
     padding: 5px 10px;
     display: flex;
     justify-content: center;
