@@ -1,0 +1,23 @@
+.hexagone-icon {
+    background: url("/assets/img/hexagone_middle_social.svg") no-repeat center center;
+    background-size: auto;
+    position: absolute;
+    height: 140px;
+    width: 130px;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+
+    img {
+        height: 32px;
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-size: 0.8rem;
+        text-align: center;
+    }
+}
