@@ -30,4 +30,18 @@
         box-shadow: 1px 1px 7px $main-background-color;
         border-radius: 4px;
     }
+
+    @media (min-width: 1280px) {
+        width: 200px;
+        height: 320px;
+        padding: 0 15px;
+
+        h4 {
+            font-size: 1.9rem;
+        }
+    
+        p {
+            font-size: 0.9rem;
+        }
+    }
 }
