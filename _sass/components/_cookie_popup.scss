@@ -11,16 +11,26 @@
 
     .cookie-window {
         background: url("/assets/img/hexagone_cookies.svg") center center no-repeat;
+        background-size: contain;
         width: 350px;
         height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 50px;
+        box-sizing: border-box;
 
-        .img {
+        img {
             width: 48px;
             height: 48px;
         }
 
         p {
+            color: black;
             padding-bottom: 10px;
+            text-align: center;
+            margin: 0 25px;
         }
 
         .cookie-window-button {
