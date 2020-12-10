@@ -24,7 +24,8 @@
     }
 
     .calendrier {
-        padding-top: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -49,5 +50,11 @@
         font-size: 10px;
 
         width: 250px;
+    }
+    .title-cas-particulier {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
     }
 }
