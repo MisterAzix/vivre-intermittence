@@ -1,6 +1,6 @@
 .social-items {
     background: url("/assets/img/hexagone_middle_social.svg") no-repeat center center;
-    background-size: auto;
+    background-size: contain;
     position: relative;
     height: 220px;
     width: 200px;
@@ -8,6 +8,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
 
     img {
         position: absolute;
@@ -28,9 +29,22 @@
         }
     }
 
+    .white {
+        box-shadow: 0px 0px 12px white;
+    }
+
+    .grey {
+        box-shadow: 0px 0px 12px #132329;
+    }
+
+    .black {
+        box-shadow: 0px 0px 12px black;
+    }
+
     @media (min-width: 500px) {
         height: 350px;
         width: 325px;
+        flex-wrap: wrap;
 
         img {
             height: 96px;
