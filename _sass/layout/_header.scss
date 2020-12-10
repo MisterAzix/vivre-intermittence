@@ -1,8 +1,22 @@
 header {
-    background-image: url("/assets/img/header_background.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
+    position: relative;
+    display: block;
     padding: 30px;
+    height: 90vh;
+
+    &::after {
+        content: "";
+        background: url("/assets/img/header_background.jpg") center center no-repeat;
+        background-size: cover;
+        opacity: 0.5;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        z-index: -1;
+        filter: blur(4px);
+    }
 
     h1 {
         margin-top: 120px;
