@@ -1,23 +1,22 @@
-.classic-button {
-    background: white;
+.form-button {
     font-size: 1.1rem;
     height: 30px;
     width: 120px;
     border-radius: 8px;
     box-shadow: 2px 2px 5px #000000;
-    color: black;
     text-decoration: none;
-    transition-duration: 0.4s;
     cursor: pointer;
     display: inline-block;
     border: none;
     transition: 0.5s;
+    background: #500F3C;
+    color: white;
 
     &:hover,
     &:focus,
     &.active {
-        background: $main-gradient;
-        color: white;
+        background: white;
+        color: black;
     }
 
     @media (min-width: 500px) {

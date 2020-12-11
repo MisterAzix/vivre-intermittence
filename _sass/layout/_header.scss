@@ -4,11 +4,22 @@ header {
     padding: 30px;
     height: 90vh;
 
+    &::before {
+        content: "";
+        background-color: black;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        z-index: -1;
+    }
+
     &::after {
         content: "";
         background: url("/assets/img/header_background.jpg") center center no-repeat;
         background-size: cover;
-        opacity: 0.5;
+        opacity: 0.25;
         top: 0;
         left: 0;
         bottom: 0;
@@ -18,24 +29,49 @@ header {
         filter: blur(4px);
     }
 
-    h1 {
-        margin-top: 120px;
-        margin-bottom: 110px;
-        font-size: 25px;
+    .header-content {
+        max-width: 1280px;
+        margin: auto;
 
-        span {
-            font-size: 30px;
-            
+        h1 {
+            margin-top: 120px;
+            font-size: 1.8rem;
+
+            span {
+                font-size: 2.2rem;
+            }
         }
-    }
 
-    h2 {
-        font-size: 18px;
-        margin-bottom: 25px;
-    }
+        h2 {
+            font-size: 1.4rem;
+            margin: 110px 0 25px;
+            filter: drop-shadow(0 3px 6px #ba1a4286);
+        }
 
-    p {
-        font-size: 16px;
-        margin: 15px 0;
+        p {
+            font-size: 1.2rem;
+            margin: 15px 0;
+            max-width: 550px;
+        }
+
+        @media (min-width: 500px) {
+            h1 {
+                font-size: 4.4rem;
+
+                span {
+                    font-size: 4.6rem;
+                }
+            }
+
+            h2 {
+                font-size: 1.9rem;
+                margin: 50px 0;
+            }
+
+            p {
+                font-size: 1.5rem;
+                margin: 15px 0;
+            }
+        }
     }
 }

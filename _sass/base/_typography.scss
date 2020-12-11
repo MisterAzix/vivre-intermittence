@@ -1,7 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,400&display=swap');
+
 @font-face {
     font-family: "Helvetica-Neue";
     src: url("/assets/font/HelveticaNeue.ttf") format("truetype");
     font-weight: normal;      
+}
+
+@font-face {
+    font-family: "Helvetica-Neue";
+    src: url("/assets/font/HelveticaNeueMedium.ttf") format("truetype");
+    font-weight: medium;      
 }
 
 @font-face {
@@ -12,9 +20,10 @@
 
 @font-face {
     font-family: "Helvetica-Neue";
-    src: url("/assets/font/HelveticaNeueMedium.ttf") format("truetype");
-    font-weight: medium;      
+    src: url("/assets/font/HelveticaNeueBlack.ttf") format("truetype");
+    font-weight: bolder;     
 }
+
 
 html {
     font-size: 14px;
@@ -29,7 +38,7 @@ h3 {
     font-family: "Helvetica-Neue";
     font-weight: normal;
 
-    .bold {
-        font-weight: bold;
+    &.bold {
+        font-weight: bolder;
     }
 }
