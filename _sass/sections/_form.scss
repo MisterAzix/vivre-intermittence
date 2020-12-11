@@ -1,5 +1,26 @@
 .form {
     background-color: $secondary-background-color;
+    position: relative;
+    overflow: hidden;
+
+    .form-light-wave-1 {
+        z-index: 3;
+        position: absolute;
+        height: 100vh;
+        width: 4000px;
+        top: -580px;
+        left: -1000px;
+        transform: rotate(180deg);
+    }
+
+    .form-light-wave-2 {
+        z-index: 3;
+        position: absolute;
+        height: 100vh;
+        width: 4000px;
+        bottom: -580px;
+        left: -200px;
+    }
 
     .section-form-content {
         display: flex;

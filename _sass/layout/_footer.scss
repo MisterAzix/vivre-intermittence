@@ -1,9 +1,11 @@
 footer {
+    position: relative;
     background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    overflow: hidden;
 
     /* Logo Promise */
     .logo-promise {

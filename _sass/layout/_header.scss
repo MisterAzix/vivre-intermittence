@@ -3,6 +3,17 @@ header {
     display: block;
     padding: 30px;
     height: 90vh;
+    overflow: hidden;
+
+    .header-dark-wave {
+        z-index: 3;
+        position: absolute;
+        height: 100vh;
+        width: 3000px;
+        bottom: -430px;
+        left: -500px;
+        transform: rotate(180deg);
+    }
 
     &::before {
         content: "";

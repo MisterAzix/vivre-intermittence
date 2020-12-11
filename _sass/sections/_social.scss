@@ -1,5 +1,14 @@
 .social {
     padding: 60px 40px;
+    position: relative;
+
+    .footer-wave {
+        z-index: 0;
+        position: absolute;
+        width: 2000px;
+        bottom: -100px;
+        left: -400px;
+    }
 
     .social-items-container {
         display: flex;
