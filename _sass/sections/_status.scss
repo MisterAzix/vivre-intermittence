@@ -1,5 +1,19 @@
 .status {
     padding: 50px 30px 100px;
+    position: relative;
+
+    /*.form-light-wave-1 {
+        z-index: 0;
+        position: absolute;
+        height: 100vh;
+        width: 900px;
+        bottom: -55vh;
+        left: 0;
+
+        @media (min-width: 900px) {
+            width: 120vw;
+        }
+    }*/
 
     img {
         border-color: white;
