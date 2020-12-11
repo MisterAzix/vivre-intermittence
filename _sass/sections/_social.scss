@@ -24,5 +24,16 @@
             display: none;
         }
     }
+
+    .social-items-container {
+        .tns-item {
+            transform: scale(0.8);
+            z-index: 1;
+        }
+        .tns-item:not(.tns-slide-active) + .tns-slide-active {
+            transform: scale(1.2);
+            z-index: 3;
+        }
+    }
 }
 

@@ -5,10 +5,10 @@ const buttons = document.querySelectorAll('.cookies-button');
 //Test if cookie are stored
 if(document.cookie) {
     console.log('Cookies Already Accepted');
-    cookiePopup.style.display = 'none';
+    cookiePopup.classList.add('display-none');
 }else {
     console.log('Cookies Not Accepted');
-    cookiePopup.style.display = 'flex';
+    cookiePopup.classList.remove('display-none');
 }
 
 buttons.forEach((button, index) => {
@@ -22,7 +22,7 @@ function acceptCookie(index) {
         setCookie()
         console.log('Cookies Accepted');
     }
-    cookiePopup.style.display = 'none';
+    cookiePopup.classList.add('display-none');
 }
 
 function setCookie() {
