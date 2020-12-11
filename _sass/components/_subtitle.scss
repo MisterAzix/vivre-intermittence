@@ -3,16 +3,19 @@
     position: relative;
 
     .subtitle-main {
-        font-size: 1.8rem;
+        font-size: 1.75rem;
+        font-weight: bold;
     }
 
     .subtitle-shadow {
-        font-size: 1.8rem;
+        font-size: 1.75rem;
+        font-weight: bold;
         position: absolute;
         top: 1px;
         left: 1px;
         color: transparent;
         text-shadow: 0 0px 5px #f2b1c0;
+        opacity: 0.5;
     }
 
     @media (min-width: 500px) {
