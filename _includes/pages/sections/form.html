@@ -5,13 +5,13 @@
         {% include components/subtitle.html subtitle='5 minutes <br><span class="bold">pour connaître vos aides</span>' %}
 
         <div class="form-container">
-            <h3>Avez-vous le statut d'intermittent ?</h3>
-            <h4>Question 1/6</h4>
+            <h3 id="question">Avez-vous le statut d'intermittent ?</h3>
+            <h4 id="question-num">Question 1/6</h4>
             
             {% include components/form_button.html content="OUI" class='form-button-yes' %}
             {% include components/form_button.html content="NON" class='form-button-no' %}
 
-            <button class="next"><img src="/assets/img/icon/icon-right-arrow.svg" alt="Validation Arrow"></button>
+            <button class="form-button-next"><img src="/assets/img/icon/icon-right-arrow.svg" alt="Validation Arrow"></button>
         </div>
 
         <div class="help-card-container">

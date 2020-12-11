@@ -6,6 +6,10 @@ body {
     background: $main-background-color;
     color: $body-color;
     font-family: $main-font;
+
+    .display-none {
+        display: none;
+    }
 }
 
 .section {
@@ -19,4 +23,3 @@ body {
         overflow: visible;
     }
 }
-
