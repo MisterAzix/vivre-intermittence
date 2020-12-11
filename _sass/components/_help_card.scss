@@ -12,9 +12,15 @@
     padding: 0 5px;
     margin: 20px 10px;
     box-sizing: border-box;
+    cursor: pointer;
+    transition: 0.5s;
 
     &.display-none {
         display: none;
+    }
+
+    &:hover {
+        transform: scale(1.1);
     }
 
     h4 {

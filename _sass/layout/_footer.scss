@@ -22,10 +22,15 @@ footer {
         /* Onglet */
         li {
             margin: 10px 0;
+            transition: 0.5s;
 
             a {
                 text-decoration: none;
                 color: white;
+            }
+
+            &:hover {
+                transform: scale(1.1);
             }
         }
     }
@@ -49,6 +54,11 @@ footer {
             margin: 24px 10px;
             height: 24px;
             width: 24px;
+            transition: 0.5s;
+
+            &:hover {
+                transform: scale(1.1);
+            }
         }
     }
     /* Copyright */
