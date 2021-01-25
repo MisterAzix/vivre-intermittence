@@ -4,4 +4,4 @@ Voci un site **one page** créé par **des étudiants de MMI Bordeaux**. Ce site
 
 Ce site est spécialment créé pour les **intermittents du spectacle** ou les **intermittents en devenir**. 
 
-6 étudients de MMI Montaigne 
+6 étudiants de MMI Montaigne 
